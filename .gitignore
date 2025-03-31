@@ -1,0 +1,41 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migration files
+*/migrations/*.pyc
+
+# virtual environment
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# environment files
+.env
+*.env
+
+# database files
+*.sqlite3
+
+# static and media files
+/static/
+*.log
+
+# Backup files
+*~
+*.bak
+*.swp
